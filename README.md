@@ -41,3 +41,13 @@ Source code contains three folders. the content of folders explained below
 It contains the jupyter notebook with CNN  followed by RNN Architecture and keras model file for same having train accuracy 99.60%, and validation accuracy 100.00%
 2) Conv3D:
 It contains the jupyter notebook with convoluton 3D architecture and keras model file for same having train accuracy 89.42%, and validation accuracy 86.67%
+
+# Note:
+the dataset was provided by institute. Hence, i cannot share it here.
+But you can try this notebooks with any dataset that having criteria listed below:
+1.	Each video is a sequence of 30 frames (or images).
+2.	all images in a particular video subfolder have the same dimensions
+3.	different videos may have different dimensions. Specifically, videos have two types of dimensions - either 360x360 or 120x160
+4.	There are two csv(one for train, one for validation) files having path of videos
+
+I downloaded data from [here](https://drive.google.com/file/d/1ehyrYBQ5rbQQe6yL4XbLWe3FMvuVUGiL/view).
